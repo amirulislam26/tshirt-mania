@@ -1,0 +1,16 @@
+.t-shirt {
+    height: 400px;
+    border: 1px solid lavender;
+    border-radius: 5px;
+}
+
+.t-shirt img {
+    height: 250px;
+}
+
+.btn-css {
+    background-color: orange;
+    color: aliceblue;
+    border: 2px solid green;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+.delete {
+    background-color: rgb(184, 220, 100);
+    color: white;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+.orenge {
+    background-color: aquamarine;
+}
+
+.review-button {
+    background-color: chartreuse;
+    color: white;
+}
+
+.remove-button {
+    background-color: red;
+    color: white;
+}
