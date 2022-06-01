@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { RingContext } from '../Grandpa/Grandpa';
 
 const Special = ({ ornament }) => {
+    const [house, setHouse] = useContext(RingContext);
     return (
         <div>
             <h5>Special</h5>
-            <p><small>Gift: {ornament}</small></p>
+            <p><small>Gift: {house}</small></p>
+            <button onClick={() => setHouse(house + 1)} className='btn-color'>Buy a house</button>
+
         </div>
     );
 };

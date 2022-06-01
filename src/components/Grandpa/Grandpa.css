@@ -19,3 +19,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.btn-color {
+    background-color: chartreuse;
+    color: white;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
